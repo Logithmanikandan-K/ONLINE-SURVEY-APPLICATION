@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = "https://online-survey-application-fras.onrender.com/feedback";
 
 function App() {
   const [feedback, setFeedback] = useState({
